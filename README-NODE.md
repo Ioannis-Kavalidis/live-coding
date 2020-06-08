@@ -61,3 +61,5 @@ Task: refactor today's code, get your own api key from open weather.
 - Creating a (very) simple server: `http.createServer(<callback>)`
 - Working on ports: `server.listen(<port>)` 
 - The request response cycle: `req` object, `res.write()`, `res.end()`"
+
+08/06/2020 Project: OxFord-Dictionary
