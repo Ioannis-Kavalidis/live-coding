@@ -2,7 +2,7 @@
 
 ## SPA - REACT 
 
-[09/06/2020](jun/09-06)
+[09/06/2020](jun/09-06/first-app)
 
 - What is a Single Page Application? Why do we need it?
 - MVC Concepts
