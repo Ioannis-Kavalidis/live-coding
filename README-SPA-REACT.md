@@ -19,4 +19,4 @@
 
 [10/06/2020](jun/10-06)
 
-- Build your own React App without create-react-app [here are the steps](SPA-REACT-README.md)
+- Build your own React App without create-react-app
