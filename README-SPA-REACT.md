@@ -15,3 +15,8 @@
 - Project organization I: `src` vs. `public` folders, the `build` folder
 - Bootstrapping react: `index.js`
 - Including styles: `import <path to css>`
+
+
+[10/06/2020](jun/10-06)
+
+- Build your own React App without create-react-app 
