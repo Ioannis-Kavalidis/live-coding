@@ -27,7 +27,7 @@
 
 
 
-[11/06/2020](jun/11-06)
+[11/06/2020](jun/11-10)
 
 - `class SomeComponent extends React.Component`
 - JSX 
