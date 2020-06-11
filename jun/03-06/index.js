@@ -9,6 +9,7 @@ let writer = fs
     console.log("file is open");
     console.log(`file data : ${fileData}`);
   });
+//
 
 writer.write("Hi this is new file done by Nodejs");
 let newWriter = fs.createWriteStream("newText.txt", { flags: "w" });
