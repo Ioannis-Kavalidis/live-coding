@@ -15,8 +15,24 @@
 - Project organization I: `src` vs. `public` folders, the `build` folder
 - Bootstrapping react: `index.js`
 - Including styles: `import <path to css>`
+- `App.js`, the boilerplate `App` component
+- `import <image name> from <path to image>`
+- `<img src={imageName} alt=""..."" />`
+
 
 
 [10/06/2020](jun/10-06)
 
 - Build your own React App without create-react-app [click here to find the steps](https://github.com/FBw-26/lessons/blob/master/SPA-REACT-README.md)
+
+
+
+[11/06/2020](jun/11-06)
+
+- `class SomeComponent extends React.Component`
+- JSX 
+- the `render(){ ... }` method
+- Props in classes: `this.props` vs. `props` as parameter
+- When to use: Class components vs. functional components
+
+Project: To Do List with REACT
