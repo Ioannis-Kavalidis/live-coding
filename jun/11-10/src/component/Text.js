@@ -11,15 +11,20 @@ import React from "react";
 //   );
 // };
 // export default Text;
-
-export default class Text extends React.Component {
+// export default class Text extends React.Component {
+class Text extends React.Component {
   render() {
     return (
       <h1>
-        {" "}
         Hey I am {this.props.name}, and I am {this.props.age}
       </h1>
     );
   }
 }
+class Hello extends React.Component {
+  render() {
+    return <h1>Hey I like React</h1>;
+  }
+}
+export { Text, Hello };
 // export default Text;
