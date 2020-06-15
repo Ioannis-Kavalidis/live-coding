@@ -1,5 +1,5 @@
 import React from "react";
-import Userlist from "./UserList";
+import UserList from "./UserList";
 export default class List extends React.Component {
   constructor(props) {
     super(props);
@@ -11,12 +11,20 @@ export default class List extends React.Component {
   render() {
     this.changeHandel = (e) => {
       console.log(e.target.value);
-
       this.setState({ userInput: e.target.value.trim() });
+      //console.log(this.state.userInput);
+    };
+    this.add = (e) => {
+      e.preventDefault();
+      const userText = this.state.userInput;
+      this.setState({
+        userInput: "",
+        list: [...this.state.list, userText],
+      });
     };
     return (
       <React.Fragment>
-        <form>
+        <form onSubmit={this.add}>
           <input
             type="text"
             value={this.state.userInput}
@@ -25,7 +33,7 @@ export default class List extends React.Component {
           />
           <input type="submit" value="Add" />
         </form>
-        <Userlist list={this.state.list} />
+        <UserList list={this.state.list} />
       </React.Fragment>
     );
   }
