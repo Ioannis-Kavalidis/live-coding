@@ -27,12 +27,28 @@
 
 
 
-[11/06/2020](jun/11-10)
+[11/06/2020](jun/11-06)
 
 - `class SomeComponent extends React.Component`
 - JSX 
 - the `render(){ ... }` method
 - Props in classes: `this.props` vs. `props` as parameter
 - When to use: Class components vs. functional components
+- Conditional rendering: `{ <boolean variable> ? <JSX 1> : <JSX 2> }`
+`{ <array variable>.map(item => (<JSX>)) }`, the `key` property
 
 Project: To Do List with REACT
+
+[15/06/2020](jun/15-06)
+
+- Multi-line templates: `const <component name> = () => (<JSX>)`
+- One element per component: `React.Fragment` for multiple html tags
+- Put the JS in JSX: Using `{}` for JS expression interpolation
+- Project organization II: The `components` folder
+- Exporting and Importing components
+- Using Components in JSX: `<ComponentName />`
+- `const <component name> = (props) => (<p>{props.propName)</p>)`
+- `<SomeComponent propName={data} />`"""
+
+- The ToDo list from last week.
+
