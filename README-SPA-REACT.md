@@ -52,3 +52,5 @@ Project: To Do List with REACT
 
 - The ToDo list from last week.
 
+- Project: Add new features to the ToDo List
+
