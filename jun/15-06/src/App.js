@@ -2,19 +2,19 @@ import React from "react";
 // import React, { Component } from "react";
 //export default class App extends Component {
 import List from "./components/List";
-import Data from "./data.json";
-
-const fileData = Data.map((obj) => {
-  const { id, name, address } = obj;
-  return (
-    <h4 key={id}>
-      Hi I am {name}, and I live in {address}
-    </h4>
-  );
-});
+// import Data from "./data.json";
+// how to use data.json
+// const fileData = Data.map((obj) => {
+//   const { id, name, address } = obj;
+//   return (
+//     <h4 key={id}>
+//       Hi I am {name}, and I live in {address}
+//     </h4>
+//   );
+// });
 const headerStyle = {
   backgroundColor: "black",
-  color: "red",
+  color: "white",
 };
 export default class App extends React.Component {
   render() {
@@ -25,14 +25,15 @@ export default class App extends React.Component {
         </h1>
         <h2
           style={{
-            backgroundColor: "orange",
-            color: "yellow",
+            backgroundColor: "gray",
+            color: "black",
           }}
         >
-          {" "}
-          My ToDo{" "}
+          My ToDo
         </h2>
-        {fileData}
+        {
+          //fileData
+        }
         <List />
       </React.Fragment>
     );
