@@ -48,9 +48,17 @@ Project: To Do List with REACT
 - Exporting and Importing components
 - Using Components in JSX: `<ComponentName />`
 - `const <component name> = (props) => (<p>{props.propName)</p>)`
-- `<SomeComponent propName={data} />`"""
+- `<SomeComponent propName={data} />`
+- the `value={this.state.propertyName}`, the `onChange` event handler
+- Manipulating state in events: `this.setState(<new state>)`
 
 - The ToDo list from last week.
 
-- Project: Add new features to the ToDo List
+Project: Add new features to the ToDo List
 
+[16/06/2020](jun/16-06)
+
+- `constructor(){ this.someHandler = this.someHandler.bind(this) }`
+- Functions in React
+
+Project: Instagram mockup with React and SASS
