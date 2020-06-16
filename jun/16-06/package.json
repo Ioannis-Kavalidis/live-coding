@@ -10,6 +10,7 @@
   "author": "Hadi Nsreeny",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
