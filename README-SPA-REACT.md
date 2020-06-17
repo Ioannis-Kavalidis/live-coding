@@ -61,4 +61,16 @@ Project: Add new features to the ToDo List
 - `constructor(){ this.someHandler = this.someHandler.bind(this) }`
 - Functions in React
 
-Project: Instagram mockup with React and SASS
+Project: Instagram MockUp with React and SASS
+
+[17/06/2020](jun/17-06)
+
+- Review from previous lessons [instagram-clone](jun/instagram-clone) 
+
+- state in react components
+- the `value={this.state.propertyName}`, the `onChange` event handler
+- Handling multiple inputs with one `onChange` handler
+- `Form`
+- `regex`
+
+Project: continue Instagram MockUp
