@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 //import  {}  from "./helpers";
 
-//   -- DO NOT DO --
-//import '../../../scss/main.scss';
-//import Data from './data.json'
-
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -43,12 +39,6 @@ export default class App extends Component {
           <input type="submit" value="Check" />
         </form>
         <div>Your Email is {this.state.result}</div>
-        {
-          // this is how your images.js should have, and not more
-          // <div className="container">
-          //    <img src={`${this.props.imgData.url}`} alt={this.props.imgData.name} key={this.props.imgData.id} className="instImg"/>
-          // </div>
-        }
       </React.Fragment>
     );
   }
