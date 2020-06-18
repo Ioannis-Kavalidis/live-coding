@@ -19,13 +19,9 @@
 - `import <image name> from <path to image>`
 - `<img src={imageName} alt=""..."" />`
 
-
-
 [10/06/2020](jun/10-06)
 
 - Build your own React App without create-react-app [click here to find the steps](https://github.com/FBw-26/lessons/blob/master/SPA-REACT-README.md)
-
-
 
 [11/06/2020](jun/11-06)
 
@@ -74,3 +70,9 @@ Project: Instagram MockUp with React and SASS
 - `regex`
 
 Project: continue Instagram MockUp
+
+18/06/2020
+
+- [Review of ToDo list](jun/15-06)
+
+Project:  Morse translator with React
