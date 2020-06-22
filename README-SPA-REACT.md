@@ -76,3 +76,7 @@ Project: continue Instagram MockUp
 - [Review of ToDo list](jun/15-06)
 
 Project:  Morse translator with React
+
+[22/06/2020](jun/22-06)
+
+- Lifecycle methods `componentDidMount()`, `componentDidUpdate()`, `shouldComponentUpdate()`
