@@ -11,6 +11,14 @@ export default class App extends React.Component {
   login = () => {
     this.setState({ userName: "Ali" });
   };
+  componentWillUnmount() {
+    return (
+      <React.Fragment>
+        <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+        <span class="sr-only">Loading...</span>
+      </React.Fragment>
+    );
+  }
   componentDidMount() {
     setTimeout(() => {
       this.setState({ userName: "Nancy" });
